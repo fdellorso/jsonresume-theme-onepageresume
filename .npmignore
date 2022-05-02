@@ -1,7 +1,8 @@
 node_modules/
 npm-debug.log
 node_modules/
+public/
 resume.html
 resume.pdf
-resume.json
+# resume.json
 .DS_Store

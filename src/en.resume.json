@@ -1,0 +1,247 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Francesco Dell'Orso",
+    "label": "Electronic Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C5603AQH2cYrIXh1eqw/profile-displayphoto-shrink_200_200/0/1517035486686?e=1655942400&v=beta&t=yAuGpypTb4xDGFBQifiekp4E85w2y5xXiykXbrxxgV0",
+    "email": "francesco.dellorso@gmail.com",
+    "phone": "+41 (0)76 201 67 57",
+    "url": "https://registry.jsonresume.org/fdellorso",
+    "summary": "Summary",
+    "location": {
+      "address": "Via Monte Ceneri 86",
+      "postalCode": "6593",
+      "city": "Cadenazzo",
+      "countryCode": "CH",
+      "region": "Ticino"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "francesco-dell-orso",
+        "url": "linkedin.com/in/francesco-dell-orso"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Systel",
+      "company": "Systel SA",
+      "location": "Quartino",
+      "description": "",
+      "position": "AVOR technician",
+      "url": "",
+      "startDate": "2006-09-01",
+      "endDate": "2009-03-31",
+      "summary": "",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "name": "Nextys",
+      "company": "Nextys SA",
+      "location": "Quartino",
+      "description": "",
+      "position": "Project manager/application tester",
+      "url": "",
+      "startDate": "2009-05-01",
+      "endDate": "2010-02-28",
+      "summary": "",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "name": "GFMS",
+      "company": "GFMS SA",
+      "location": "Losone",
+      "description": "",
+      "position": "Application developper",
+      "url": "",
+      "startDate": "2010-05-10",
+      "endDate": "2016-11-31",
+      "summary": "",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "name": "Physei",
+      "company": "Physei SA",
+      "location": "Paradiso",
+      "description": "Awesome compression company",
+      "position": "Product developper",
+      "url": "https://www.rec360.ch",
+      "startDate": "2018-08-13",
+      "endDate": "2022-05-31",
+      "summary": "",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "SPAI",
+      "url": "https://www.spailocarno.ch/site/",
+      "area": "Maturity (FBM)",
+      "studyType": "Professional Maturity",
+      "startDate": "2001-09-01",
+      "endDate": "2002-06-30",
+      "gpa": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "SUPSI",
+      "url": "https://www.supsi.ch/dti/",
+      "area": "Electronic Engineer (DTI)",
+      "studyType": "Bachelor",
+      "startDate": "2002-09-01",
+      "endDate": "2005-06-30",
+      "gpa": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "Innopark",
+      "url": "https://www.innopark.ch/it/",
+      "area": "Project Manager",
+      "studyType": "IPMA Certification level D",
+      "startDate": "2017-11-01",
+      "endDate": "2018-05-31",
+      "gpa": "4.0",
+      "courses": []
+    },
+    {
+      "institution": "ITCore Group Academy",
+      "url": "https://www.itcoregroup-academy.com/",
+      "area": "IT Intensive Course",
+      "studyType": "Fundementals/Programming Oracle Java SE 8, Android Apps developing",
+      "startDate": "2018-08-13",
+      "endDate": "2018-08-31",
+      "gpa": "4.0",
+      "courses": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Electronic Development",
+      "level": "Master",
+      "keywords": [
+        "Circuit developing",
+        "PCB creation",
+        "FPGA",
+        "VHDL",
+        "MicroController",
+        "ARM"
+      ]
+    },
+    {
+      "name": "Programming Language",
+      "level": "Master",
+      "keywords": ["Assembler", "C/C++", "Java", "Python", "VBA"]
+    },
+    {
+      "name": "Database",
+      "level": "Master",
+      "keywords": ["SQL", "MySql/MariaDB", "PostgreSQL"]
+    },
+    {
+      "name": "Linux",
+      "level": "Master",
+      "keywords": [
+        "System Administration",
+        "Shell Scripting",
+        "Kernel Module",
+        "Real Time (Xenomai)"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Web App",
+        "PWA",
+        "Webpack",
+        "Workbox"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": ["NodeJs"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Moderate"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    },
+    {
+      "language": "English",
+      "fluency": "Good"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "https://missdirection.example.com",
+      "roles": ["Team lead", "Designer"],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

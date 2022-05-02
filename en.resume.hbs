@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sorts Mill Goudy">
+    <title>One Page Resume</title>
+    <style type="text/css">
+    {{css}}
+    </style>
+  </head>
+  <body>
+    <div id="page-wrap">
+      <img src="{{resume.basics.image}}" id="pic" />
+      <div id="contact-info" class="vcard">
+        <!-- Microformats! -->
+        <h1 class="fn">{{resume.basics.name}}</h1>
+        <h2 class="line">{{resume.basics.label}}</h2>
+        <p>
+          {{#each resume.basics.profiles}}
+          <a class="email" href="https://www.{{url}}">{{url}}</a><br />
+          {{/each}}
+          <a class="email" href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a><br />
+          <span class="tel">{{resume.basics.phone}}</span><br />
+          <span class="tel">{{resume.basics.location.address}}</span><br />
+          <span class="tel">{{resume.basics.location.postalCode}} {{resume.basics.location.city}} ({{resume.basics.location.countryCode}})</span>
+        </p>
+      </div>
+      <div id="objective">
+        <p>{{resume.basics.summary}}</p>
+      </div>
+      <div class="clear"></div>
+      <dl>
+        <dd class="clear"></dd>
+        {{#if resume.work.length}}
+        <dt>Experience</dt>
+        {{#each resume.work}}
+        <dd>
+          <h2>{{company}}</h2>
+          <h4>{{position}}</h4>
+          <h2>
+            <span>
+              {{startDate}} -
+              {{#if endDate.length}}
+              {{endDate}}
+              {{^}}
+              Present
+              {{/if}}
+            </span>
+          </h2>
+          {{summary}}
+          <ul>
+          {{#highlights}}
+            <li>{{.}}</li>
+          {{/highlights}}
+          </ul>
+        </dd>
+        {{/each}}
+        {{/if}}
+        <dd class="clear"></dd>
+        {{#if resume.education.length}}
+        <dt>Education</dt>
+        {{#each resume.education}}
+        <dd>
+          <h2>{{institution}}
+            <span>
+            {{startDate}} -
+            {{#if endDate.length}}
+            {{endDate}}
+            {{^}}
+            Present
+            {{/if}}
+            </span>
+          </h2>
+          {{studyType}}{{#area}} - <i>{{.}}</i>{{/area}}<br/><br/>
+        </dd>
+        {{/each}}
+        {{/if}}
+        <dd class="clear"></dd>
+        {{#if resume.skills.length}}
+        <dt>Skills</dt>
+        <dd>
+          {{#each resume.skills}}
+          <h2>{{name}}</h2>
+          <p>{{keywords}}</p>
+          {{/each}}
+        </dd>
+        {{/if}}
+        <dd class="clear"></dd>
+        {{#if resume.languages.length}}
+        <dt>Languages</dt>
+        {{#each resume.languages}}
+        <dd>
+          {{language}} - <i>{{fluency}}</i>
+        </dd>
+        {{/each}}
+        {{/if}}
+        <dd class="clear"></dd>
+        <dd class="clear"></dd>
+        {{#if resume.interests.length}}
+        <dt>Hobbies</dt>
+        <dd>
+          {{name}}
+          {{#each resume.interests}}
+          <h2>{{name}}</h2>
+          <p>{{keywords}}</p>
+          {{/each}}
+        </dd>
+        {{#each resume.interests}}
+        {{/each}}
+        {{/if}}
+        <dd class="clear"></dd>
+        <dd class="clear"></dd>
+        {{#if resume.references.length}}
+        <dt>References</dt>
+        {{#each resume.references}}
+        <dd><i>{{reference}}</i><br>
+          <br><h2><span>{{name}}</span></h2>
+        </dd>
+        {{/each}}
+        {{^}}
+        <dd>Available on request</dd>
+        {{/if}}
+        <dd class="clear"></dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

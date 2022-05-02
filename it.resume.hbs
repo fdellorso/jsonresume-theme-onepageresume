@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sorts Mill Goudy">
     <title>One Page Resume</title>
     <style type="text/css">
     {{css}}
@@ -10,13 +11,16 @@
   </head>
   <body>
     <div id="page-wrap">
-      <img src="{{resume.basics.picture}}" id="pic" />
+      <img src="{{resume.basics.image}}" id="pic" />
       <div id="contact-info" class="vcard">
         <!-- Microformats! -->
         <h1 class="fn">{{resume.basics.name}}</h1>
+        <h2 class="line">{{resume.basics.label}}</h2>
         <p>
-          Cell: <span class="tel">{{resume.basics.phone}}</span><br />
-          Email: <a class="email" href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a>
+          <a class="email" href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a><br />
+          <span class="tel">{{resume.basics.phone}}</span><br />
+          <span class="tel">{{resume.basics.location.address}}</span><br />
+          <span class="tel">{{resume.basics.location.postalCode}} {{resume.basics.location.city}} ({{resume.basics.location.countryCode}})</span>
         </p>
       </div>
       <div id="objective">

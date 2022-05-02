@@ -17,6 +17,10 @@
   "homepage": "https://github.com/zachfeldman/jsonresume-theme-onepageresume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "en": "cp en.index.js index.js && resume serve --resume src/en.resume.json -t .",
+    "it": "cp it.index.js index.js && resume serve --resume src/it.resume.json -t ."
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
   }
 }
