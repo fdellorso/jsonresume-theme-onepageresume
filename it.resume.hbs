@@ -17,6 +17,9 @@
         <h1 class="fn">{{resume.basics.name}}</h1>
         <h2 class="line">{{resume.basics.label}}</h2>
         <p>
+          {{#each resume.basics.profiles}}
+          <a class="email" href="https://www.{{url}}">{{url}}</a><br />
+          {{/each}}
           <a class="email" href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a><br />
           <span class="tel">{{resume.basics.phone}}</span><br />
           <span class="tel">{{resume.basics.location.address}}</span><br />
@@ -24,58 +27,36 @@
         </p>
       </div>
       <div id="objective">
-        <p>{{resume.basics.summary}}</p>
+        <p>
+          {{#each resume.basics.summary}}
+          {{this}}
+          {{/each}}
+          {{!-- {{resume.basics.summary}} --}}
+        </p>
       </div>
       <div class="clear"></div>
       <dl>
         <dd class="clear"></dd>
-        {{#if resume.education.length}}
-        <dt>Education</dt>
-        <dd>
-          {{#each resume.education}}
-          <h2>{{institution}}
-            <span>
-            {{startDate}} -
-            {{#if endDate.length}}
-            {{endDate}}
-            {{^}}
-            Present
-            {{/if}}
-            </span>
-          </h2>
-          {{studyType}}{{#area}} - <i>{{.}}</i>{{/area}}<br/>
-          {{/each}}
-        </dd>
-        {{/if}}
-        <dd class="clear"></dd>
-        {{#if resume.skills.length}}
-        <dt>Skills</dt>
-        <dd>
-          {{#each resume.skills}}
-          <h2>{{name}}</h2>
-          <p>{{keywords}}</p>
-          {{/each}}
-        </dd>
-        {{/if}}
-        <dd class="clear"></dd>
         {{#if resume.work.length}}
-        <dt>Experience</dt>
+        <dt>Lavoro</dt>
         {{#each resume.work}}
         <dd>
-          <h4>
-            {{position}}
-          </h4>
-          <h2>{{company}}
+          <h2>{{company}}</h2>
+          <h4>{{position}}</h4>
+          <h2>
             <span>
               {{startDate}} -
               {{#if endDate.length}}
               {{endDate}}
               {{^}}
-              Present
+              Presente
               {{/if}}
             </span>
           </h2>
-          {{summary}}
+          {{#each summary}}
+          {{this}}
+          {{/each}}
+          {{!-- {{summary}} --}}
           <ul>
           {{#highlights}}
             <li>{{.}}</li>
@@ -85,8 +66,44 @@
         {{/each}}
         {{/if}}
         <dd class="clear"></dd>
+        {{#if resume.education.length}}
+        <dt>Educazione</dt>
+        {{#each resume.education}}
+        <dd>
+          <h2>{{institution}}
+            <span>
+            {{startDate}} -
+            {{#if endDate.length}}
+            {{endDate}}
+            {{^}}
+            Presente
+            {{/if}}
+            </span>
+          </h2>
+          {{studyType}}{{#area}} - <i>{{.}}</i>{{/area}}<br/><br/>
+        </dd>
+        {{/each}}
+        {{/if}}
+        <dd class="clear"></dd>
+        {{#if resume.skills.length}}
+        <dt>Conoscenze</dt>
+        <dd class="skills">
+          {{#each resume.skills}}
+          <div>
+            <h2>{{name}}</h2>
+            {{!-- <p>{{keywords}}</p> --}}
+            <ul>
+            {{#keywords}}
+              <li>{{.}}</li>
+            {{/keywords}}
+            </ul>
+          </div>
+          {{/each}}
+        </dd>
+        {{/if}}
+        <dd class="clear"></dd>
         {{#if resume.languages.length}}
-        <dt>Languages</dt>
+        <dt>Lingue</dt>
         {{#each resume.languages}}
         <dd>
           {{language}} - <i>{{fluency}}</i>
@@ -94,8 +111,9 @@
         {{/each}}
         {{/if}}
         <dd class="clear"></dd>
+        <dd class="clear"></dd>
         {{#if resume.interests.length}}
-        <dt>Hobbies</dt>
+        <dt>Interessi</dt>
         <dd>
           {{name}}
           {{#each resume.interests}}
@@ -107,6 +125,7 @@
         {{/each}}
         {{/if}}
         <dd class="clear"></dd>
+        {{!-- <dd class="clear"></dd>
         {{#if resume.references.length}}
         <dt>References</dt>
         {{#each resume.references}}
@@ -117,7 +136,7 @@
         {{^}}
         <dd>Available on request</dd>
         {{/if}}
-        <dd class="clear"></dd>
+        <dd class="clear"></dd> --}}
       </dl>
       <div class="clear"></div>
     </div>

@@ -27,7 +27,12 @@
         </p>
       </div>
       <div id="objective">
-        <p>{{resume.basics.summary}}</p>
+        <p>
+          {{#each resume.basics.summary}}
+          {{this}}
+          {{/each}}
+          {{!-- {{resume.basics.summary}} --}}
+        </p>
       </div>
       <div class="clear"></div>
       <dl>
@@ -48,7 +53,10 @@
               {{/if}}
             </span>
           </h2>
-          {{summary}}
+          {{#each summary}}
+          {{this}}
+          {{/each}}
+          {{!-- {{summary}} --}}
           <ul>
           {{#highlights}}
             <li>{{.}}</li>
@@ -79,10 +87,17 @@
         <dd class="clear"></dd>
         {{#if resume.skills.length}}
         <dt>Skills</dt>
-        <dd>
+        <dd class="skills">
           {{#each resume.skills}}
-          <h2>{{name}}</h2>
-          <p>{{keywords}}</p>
+          <div>
+            <h2>{{name}}</h2>
+            {{!-- <p>{{keywords}}</p> --}}
+            <ul>
+            {{#keywords}}
+              <li>{{.}}</li>
+            {{/keywords}}
+            </ul>
+          </div>
           {{/each}}
         </dd>
         {{/if}}
@@ -110,7 +125,7 @@
         {{/each}}
         {{/if}}
         <dd class="clear"></dd>
-        <dd class="clear"></dd>
+        {{!-- <dd class="clear"></dd>
         {{#if resume.references.length}}
         <dt>References</dt>
         {{#each resume.references}}
@@ -121,7 +136,7 @@
         {{^}}
         <dd>Available on request</dd>
         {{/if}}
-        <dd class="clear"></dd>
+        <dd class="clear"></dd> --}}
       </dl>
       <div class="clear"></div>
     </div>

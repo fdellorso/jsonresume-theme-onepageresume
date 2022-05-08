@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Francesco Dell'Orso",
-    "label": "Electronic Engineer",
+    "label": "Ingegnere elettronico",
     "image": "https://media-exp1.licdn.com/dms/image/C5603AQH2cYrIXh1eqw/profile-displayphoto-shrink_200_200/0/1517035486686?e=1655942400&v=beta&t=yAuGpypTb4xDGFBQifiekp4E85w2y5xXiykXbrxxgV0",
     "email": "francesco.dellorso@gmail.com",
     "phone": "+41 (0)76 201 67 57",
     "url": "https://registry.jsonresume.org/fdellorso",
     "summary": [
-      "I'm electronic engineer who can build product from ground up.",
-      "From my different jobs, I've gained experience to follow, manage and develop product.",
-      "From concept, through the various stages of the project, to arrive at industrialization."
+      "Sono un ingegnere in elettronica con le capicità di sviluppare il prodotto dall'inizio alla fine.",
+      "Dalle mie diverse esperienze lavorative, ho appreso le conoscenze per gestire e supportare lo sviluppo del prodotto.",
+      "Dalla fase concettuale, passando atrraverso le varie fasi del progetto, fino ad arrivare alla produzione industriale."
     ],
     "location": {
       "address": "Via Monte Ceneri 86",
@@ -33,20 +33,21 @@
       "company": "Systel SA",
       "location": "Quartino",
       "description": "",
-      "position": "AVOR technician",
+      "position": "Tecnico AVOR",
       "url": "",
       "startDate": "2006-05-01",
       "endDate": "2009-03-31",
       "summary": [
-        "Systel was a third party electronic equipment productor. Hired as Avor technician,",
-        "I've to follow production to verify/improve process correctness. I could experience in SAP use, ",
-        "and so improve data insertion. I became ICT programming responsable. Finally I worked side by side with Test",
-        "development chief to realize Test System for new incoming product."
+        "Systel produceva schede elettroniche per terze parti. Sono stato ingaggiato in qualità di tecnico Avor. ",
+        "i miei compiti erano di industrializzare nuovi prodotti per poi seguire e migliorarne il processo produttivo. ",
+        "Ho fatto esperienza nell'utilizzo di SAP, e ho ottimizzato il metodo di inserimento dati nel sistema. ",
+        "Poi sono diventato responsabile del reparto di programmazione ICT, e ho affiancato il responsabile ",
+        "dei sistemi di test per aiutarlo nello sviluppo."
       ],
       "highlights": [
-        "Production process optimization",
-        "CAM/CAE pcb analyze, SMD stencil production",
-        "Test System developping (ICT, Flying Probe, Functional test)"
+        "Ottimizzazione processi di produzione",
+        "Analisi PCB con CAM/CAE, realizzazione stencil SMD",
+        "Sviluppo sistemi di test (ICT, Flying Probe, Functional test)"
       ]
     },
     {
@@ -54,14 +55,17 @@
       "company": "Nextys SA",
       "location": "Quartino",
       "description": "",
-      "position": "Project supervisor/application tester",
+      "position": "Supervisore progetto",
       "url": "",
       "startDate": "2009-05-01",
       "endDate": "2010-02-28",
       "summary": [
+        "Nextys produce unità di alimentazione ad alta efficienza. Il mio compito era di supervisionare lo sviluppo di un nuovo prodotto: il BattMaster. ",
+        "BattMaster è un monitor intelligiente per sistemi UPS, che sorveglia con collegamento senza filo le batterie e avvisa il gestore (stato, durata di vita, problemi,...). ",
+        "Ho realizzato il processo e il sistema di test per l'apparecchio e "
         "Nextys produce high efficiency Power Supply. My task was to follow developping of a brand new product: BattMaster.",
         "BattMaster is an intelligent UPS monitor, supervises wirelessly the system and inform (status, lifespan, failure,...).",
-        "I've to conceive a Test System for whole BattMaster system and integrate new software release."
+        "I've to conceive a Test System for whole BattMaster system and integrate new software release"
       ],
       "highlights": ["Project supervising", "SW/HW test developping"]
     },
@@ -70,7 +74,7 @@
       "company": "GFMS SA",
       "location": "Losone",
       "description": "",
-      "position": "Application developper",
+      "position": "Sviluppatore di tecnologie applicative",
       "url": "",
       "startDate": "2010-05-10",
       "endDate": "2016-11-31",
@@ -88,8 +92,8 @@
       "name": "Physei",
       "company": "Physei SA",
       "location": "Paradiso",
-      "description": "Awesome compression company",
-      "position": "Product developper",
+      "description": "",
+      "position": "Sviluppatore prodotto",
       "url": "https://www.rec360.ch",
       "startDate": "2018-08-13",
       "endDate": "2022-05-31",
@@ -211,46 +215,49 @@
   ],
   "languages": [
     {
-      "language": "Italian",
-      "fluency": "Native speaker"
+      "language": "Italiano",
+      "fluency": "lingua madre"
     },
     {
-      "language": "French",
-      "fluency": "Moderate"
+      "language": "Francese",
+      "fluency": "discreto"
     },
     {
-      "language": "German",
-      "fluency": "Basic"
+      "language": "Tedesco",
+      "fluency": "base"
     },
     {
-      "language": "English",
-      "fluency": "Good"
+      "language": "Inglese",
+      "fluency": "buono"
     },
     {
-      "language": "Romanian",
-      "fluency": "Moderate"
+      "language": "Rumeno",
+      "fluency": "discreto"
     }
   ],
   "interests": [
     {
-      "name": "Music",
-      "keywords": ["listening Music", "try learn play guitar instrument"]
+      "name": "Musica",
+      "keywords": ["ascolto musica", "imparare a suonare la chitarra"]
     },
     {
       "name": "Sport",
       "keywords": [
-        "view Soccer match",
-        "view Motorsport Grand Prix",
-        "play Soccer with friends"
+        "guardare partite di calcio",
+        "guardare gran prmi Motosport",
+        "giocare a calcio con gli amici"
       ]
     },
     {
       "name": "Computer",
-      "keywords": ["learn new language/framework", "development"]
+      "keywords": ["imparare nuovi linguaggi/framework", "sviluppo"]
     },
     {
       "name": "3D Printing",
-      "keywords": ["learn use 3D print", "learn CAD 3D model drawing"]
+      "keywords": [
+        "utilizzare la stampante 3D",
+        "imparare ad utilizzate il CAD per la modellazione 3D"
+      ]
     }
   ],
   "references": [
