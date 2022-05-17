@@ -173,12 +173,12 @@
     {
       "name": "Programming Language",
       "level": "Master",
-      "keywords": ["Assembler", "C/C++", "Java", "Python", "VBA"]
+      "keywords": ["Assembler", "C/C++", "Java", "HTML/CSS/JS", "PHP", "Python", "VBA"]
     },
     {
       "name": "Database",
       "level": "Master",
-      "keywords": ["SQL", "MySql/MariaDB", "PostgreSQL"]
+      "keywords": ["SQL", "MySql/MariaDB", "PostgreSQL", "Sqlite"]
     },
     {
       "name": "Linux",
@@ -194,19 +194,17 @@
       "name": "Frontend",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
         "Web App",
         "PWA",
         "Webpack",
-        "Workbox"
+        "Workbox",
+        "Vue"
       ]
     },
     {
       "name": "Backend",
       "level": "Master",
-      "keywords": ["HTTP", "WebSocket", "SSE", "NodeJs"]
+      "keywords": ["HTTP", "WebSocket", "SSE", "NodeJs", "Laravel"]
     }
   ],
   "languages": [

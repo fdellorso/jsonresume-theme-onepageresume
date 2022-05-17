@@ -8,9 +8,9 @@
     "phone": "+41 (0)76 201 67 57",
     "url": "https://registry.jsonresume.org/fdellorso",
     "summary": [
-      "Sono un ingegnere in elettronica con le capicità di sviluppare il prodotto dall'inizio alla fine.",
-      "Dalle mie diverse esperienze lavorative, ho appreso le conoscenze per gestire e supportare lo sviluppo del prodotto.",
-      "Dalla fase concettuale, passando atrraverso le varie fasi del progetto, fino ad arrivare alla produzione industriale."
+      "Sono un ingegnere in elettronica con le capicità di sviluppare il prodotto dall'inizio alla fine. ",
+      "Dalle mie diverse esperienze lavorative, ho appreso le conoscenze per gestire e supportare lo sviluppo del prodotto. ",
+      "Dalla fase concettuale, passando attraverso le varie fasi del progetto, fino ad arrivare alla produzione industriale."
     ],
     "location": {
       "address": "Via Monte Ceneri 86",
@@ -62,12 +62,9 @@
       "summary": [
         "Nextys produce unità di alimentazione ad alta efficienza. Il mio compito era di supervisionare lo sviluppo di un nuovo prodotto: il BattMaster. ",
         "BattMaster è un monitor intelligiente per sistemi UPS, che sorveglia con collegamento senza filo le batterie e avvisa il gestore (stato, durata di vita, problemi,...). ",
-        "Ho realizzato il processo e il sistema di test per l'apparecchio e "
-        "Nextys produce high efficiency Power Supply. My task was to follow developping of a brand new product: BattMaster.",
-        "BattMaster is an intelligent UPS monitor, supervises wirelessly the system and inform (status, lifespan, failure,...).",
-        "I've to conceive a Test System for whole BattMaster system and integrate new software release"
+        "Ho realizzato l'intero sistema di test per l'apparecchio insieme, con test di integrazione delle software release."
       ],
-      "highlights": ["Project supervising", "SW/HW test developping"]
+      "highlights": ["Supervisione progetto", "Sviluppo sistema di test HW/SW"]
     },
     {
       "name": "GFMS",
@@ -79,13 +76,14 @@
       "startDate": "2010-05-10",
       "endDate": "2016-11-31",
       "summary": [
-        "GFMS (ex AGIE-Charmilles) is leader on EDM Machine production. I started to work on production final test, after 3 month,",
-        "I became Die-Sinking failure research chief. Then I moved to R&D department, where I been in charge to develop new application technologies.",
-        "I supported (in-house & by the customer) application customer care department to achieve customer will."
+        "GFMS (ex AGIE-Charmilles) è leader nella produzione di macchinari EDM. Ho iniziato al lavorare nel reparto test finale come collaudatore, ",
+        "dopo 3 mesi, sono stato promosso a ricercatore guasti per le macchine a Tuffo. Dopo sono stato assegnato al reparto ricerca e sviluppo, ",
+        "in qualità di sviluppatore di tecnologie applicative. Facendo esperienza ho iniziato a supportare il reparto applicazioni cliente ",
+        "(sia in casa che direttamente dal cliente), per raggiungere gli obbiettivi applicativi del cliente."
       ],
       "highlights": [
-        "Programming and use EDM (Wire and Die-Sinking) machine",
-        "Very high precision mechanical skills (sub-microns)"
+        "Utilizzare e programmare macchinari EDM (Filo e Tuffo)",
+        "Conoscenze nell'ambito della meccanica di precisione (sub-microns)"
       ]
     },
     {
@@ -98,6 +96,9 @@
       "startDate": "2018-08-13",
       "endDate": "2022-05-31",
       "summary": [
+        "Sono stato ingaggiato per sviluppare uno studio fotografico 360 gradi economico. Lo scopo del progetto ",
+        "è portare la tecnologia delle foto a 360 gradi a chiunque voglia esporre i propri prodotti usando la tecnologia stato dell'arte.",
+        "In questa esperinza lacvorativa ho potutto expandere notevolmente le mie conoscenze tecnologiche. ",
         "I was hired to bring my HW/SW skills for developping an economic 360 photo booth. The purpose of the project is ",
         "to bring this technology to everyone, that want to expose their commodity in a state-of-art manner.",
         "In this work experience I've the pleasure to notevoly expand my technologic known/skills. Working with Linux as base system, ",
@@ -105,9 +106,10 @@
         "so I learned and implemented PWA web application to achieve the target."
       ],
       "highlights": [
-        "HW/SW development",
-        "Linux Xenomai Real-Time environment",
-        "PWA control GUI driven by NodeJs"
+        "Sviluppo HW/SW (HW Firmware)",
+        "Ambiente Linux Real-Time con Xenomai",
+        "Streaming video a bassa latenza",
+        "Interfaccia grafica con PWA servita da NodeJs Server"
       ]
     }
   ],
@@ -115,8 +117,8 @@
     {
       "institution": "SPAI",
       "url": "https://www.spailocarno.ch/site/",
-      "area": "Maturity (FBM)",
-      "studyType": "Professional Maturity",
+      "area": "Maturità (FBM)",
+      "studyType": "Maturità professionale",
       "startDate": "2001-09-01",
       "endDate": "2002-06-30",
       "gpa": "4.0",
@@ -125,7 +127,7 @@
     {
       "institution": "SUPSI",
       "url": "https://www.supsi.ch/dti/",
-      "area": "Electronic Engineer (DTI)",
+      "area": "Ingegneria elettronica (DTI)",
       "studyType": "Bachelor",
       "startDate": "2002-09-01",
       "endDate": "2005-06-30",
@@ -145,7 +147,7 @@
     {
       "institution": "ITCore Group Academy",
       "url": "https://www.itcoregroup-academy.com/",
-      "area": "IT Intensive Course",
+      "area": "IT corso intensivo",
       "studyType": "Fundementals/Programming Oracle Java SE 8, Android Apps developing",
       "startDate": "2018-08-13",
       "endDate": "2018-08-31",
@@ -163,11 +165,11 @@
   ],
   "skills": [
     {
-      "name": "Electronic Development",
+      "name": "Sviluppo elettronica",
       "level": "Master",
       "keywords": [
-        "Circuit developing",
-        "PCB creation",
+        "Sviluppo circuiti",
+        "Fabbricazione PCB",
         "FPGA",
         "VHDL",
         "MicroController",
@@ -175,20 +177,20 @@
       ]
     },
     {
-      "name": "Programming Language",
+      "name": "Linguaggi di programmazione",
       "level": "Master",
-      "keywords": ["Assembler", "C/C++", "Java", "Python", "VBA"]
+      "keywords": ["Assembler", "C/C++", "Java", "HTML/CSS/JS", "PHP", "Python", "VBA"]
     },
     {
       "name": "Database",
       "level": "Master",
-      "keywords": ["SQL", "MySql/MariaDB", "PostgreSQL"]
+      "keywords": ["SQL", "MySql/MariaDB", "PostgreSQL", "Sqlite"]
     },
     {
       "name": "Linux",
       "level": "Master",
       "keywords": [
-        "System Administration",
+        "Amministrazione Sistema",
         "Shell Scripting",
         "Kernel Module",
         "Real Time (Xenomai)"
@@ -198,19 +200,17 @@
       "name": "Frontend",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
         "Web App",
         "PWA",
         "Webpack",
-        "Workbox"
+        "Workbox",
+        "Vue"
       ]
     },
     {
       "name": "Backend",
       "level": "Master",
-      "keywords": ["HTTP", "WebSocket", "SSE", "NodeJs"]
+      "keywords": ["HTTP", "WebSocket", "SSE", "NodeJs", "Laravel"]
     }
   ],
   "languages": [
