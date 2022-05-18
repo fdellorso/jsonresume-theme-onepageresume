@@ -39,7 +39,7 @@
       "endDate": "2009-03-31",
       "summary": [
         "Systel produceva schede elettroniche per terze parti. Sono stato ingaggiato in qualità di tecnico Avor. ",
-        "i miei compiti erano di industrializzare nuovi prodotti per poi seguire e migliorarne il processo produttivo. ",
+        "I miei compiti erano di industrializzare nuovi prodotti per poi seguire e migliorarne il processo produttivo. ",
         "Ho fatto esperienza nell'utilizzo di SAP, e ho ottimizzato il metodo di inserimento dati nel sistema. ",
         "Poi sono diventato responsabile del reparto di programmazione ICT, e ho affiancato il responsabile ",
         "dei sistemi di test per aiutarlo nello sviluppo."
@@ -61,8 +61,8 @@
       "endDate": "2010-02-28",
       "summary": [
         "Nextys produce unità di alimentazione ad alta efficienza. Il mio compito era di supervisionare lo sviluppo di un nuovo prodotto: il BattMaster. ",
-        "BattMaster è un monitor intelligiente per sistemi UPS, che sorveglia con collegamento senza filo le batterie e avvisa il gestore (stato, durata di vita, problemi,...). ",
-        "Ho realizzato l'intero sistema di test per l'apparecchio insieme, con test di integrazione delle software release."
+        "BattMaster è un monitor intelligente per sistemi UPS, che sorveglia con collegamento senza filo le batterie e avvisa il gestore (stato, durata di vita, problemi,...). ",
+        "Ho realizzato l'intero sistema di test per l'apparecchio, con test di integrazione delle software release."
       ],
       "highlights": ["Supervisione progetto", "Sviluppo sistema di test HW/SW"]
     },
@@ -97,13 +97,10 @@
       "endDate": "2022-05-31",
       "summary": [
         "Sono stato ingaggiato per sviluppare uno studio fotografico 360 gradi economico. Lo scopo del progetto ",
-        "è portare la tecnologia delle foto a 360 gradi a chiunque voglia esporre i propri prodotti usando la tecnologia stato dell'arte.",
-        "In questa esperinza lacvorativa ho potutto expandere notevolmente le mie conoscenze tecnologiche. ",
-        "I was hired to bring my HW/SW skills for developping an economic 360 photo booth. The purpose of the project is ",
-        "to bring this technology to everyone, that want to expose their commodity in a state-of-art manner.",
-        "In this work experience I've the pleasure to notevoly expand my technologic known/skills. Working with Linux as base system, ",
-        "I add Xenomai for Real-Time purpose and develop real-time drivers. Remotely control is done via any type of device (Desktop, iOS, Android), ",
-        "so I learned and implemented PWA web application to achieve the target."
+        "è portare la tecnologia delle foto a 360 gradi a chiunque voglia esporre i propri prodotti usando la tecnologia stato dell'arte. ",
+        "In questa esperinza lavorativa ho potuto espandere notevolmente le mie conoscenze tecnologiche. Ho sviluppato driver per Linux ",
+        " nel dominio Real-Time grazie a Xenomai. Ho creato un sistema di controllo remoto accessibile da ogni tipo di piattaforma (Desktop, iOS, Android), ",
+        " imparando e sviluppando una apllicazione Web conforme alle direttive PWA."
       ],
       "highlights": [
         "Sviluppo HW/SW (HW Firmware)",
@@ -179,7 +176,15 @@
     {
       "name": "Linguaggi di programmazione",
       "level": "Master",
-      "keywords": ["Assembler", "C/C++", "Java", "HTML/CSS/JS", "PHP", "Python", "VBA"]
+      "keywords": [
+        "Assembler",
+        "C/C++",
+        "Java",
+        "HTML/CSS/JS",
+        "PHP",
+        "Python",
+        "VBA"
+      ]
     },
     {
       "name": "Database",
@@ -199,13 +204,7 @@
     {
       "name": "Frontend",
       "level": "Master",
-      "keywords": [
-        "Web App",
-        "PWA",
-        "Webpack",
-        "Workbox",
-        "Vue"
-      ]
+      "keywords": ["Web App", "PWA", "Webpack", "Workbox", "Vue"]
     },
     {
       "name": "Backend",

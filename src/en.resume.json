@@ -8,8 +8,8 @@
     "phone": "+41 (0)76 201 67 57",
     "url": "https://registry.jsonresume.org/fdellorso",
     "summary": [
-      "I'm electronic engineer who can build product from ground up.",
-      "From my different jobs, I've gained experience to follow, manage and develop product.",
+      "I'm electronic engineer who can build product from ground up. ",
+      "From my different jobs, I've gained experience to follow, manage and develop product. ",
       "From concept, through the various stages of the project, to arrive at industrialization."
     ],
     "location": {
@@ -38,9 +38,9 @@
       "startDate": "2006-05-01",
       "endDate": "2009-03-31",
       "summary": [
-        "Systel was a third party electronic equipment productor. Hired as Avor technician,",
+        "Systel was a third party electronic equipment productor. Hired as Avor technician, ",
         "I've to follow production to verify/improve process correctness. I could experience in SAP use, ",
-        "and so improve data insertion. I became ICT programming responsable. Finally I worked side by side with Test",
+        "and so improve data insertion. I became ICT programming responsable. Finally I worked side by side with Test ",
         "development chief to realize Test System for new incoming product."
       ],
       "highlights": [
@@ -59,8 +59,8 @@
       "startDate": "2009-05-01",
       "endDate": "2010-02-28",
       "summary": [
-        "Nextys produce high efficiency Power Supply. My task was to follow developping of a brand new product: BattMaster.",
-        "BattMaster is an intelligent UPS monitor, supervises wirelessly the system and inform (status, lifespan, failure,...).",
+        "Nextys produce high efficiency Power Supply. My task was to follow developping of a brand new product: BattMaster. ",
+        "BattMaster is an intelligent UPS monitor, supervises wirelessly the system and inform (status, lifespan, failure,...). ",
         "I've to conceive a Test System for whole BattMaster system and integrate new software release."
       ],
       "highlights": ["Project supervising", "SW/HW test developping"]
@@ -75,8 +75,8 @@
       "startDate": "2010-05-10",
       "endDate": "2016-11-31",
       "summary": [
-        "GFMS (ex AGIE-Charmilles) is leader on EDM Machine production. I started to work on production final test, after 3 month,",
-        "I became Die-Sinking failure research chief. Then I moved to R&D department, where I been in charge to develop new application technologies.",
+        "GFMS (ex AGIE-Charmilles) is leader on EDM Machine production. I started to work on production final test, after 3 month, ",
+        "I became Die-Sinking failure research chief. Then I moved to R&D department, where I been in charge to develop new application technologies. ",
         "I supported (in-house & by the customer) application customer care department to achieve customer will."
       ],
       "highlights": [
@@ -95,7 +95,7 @@
       "endDate": "2022-05-31",
       "summary": [
         "I was hired to bring my HW/SW skills for developping an economic 360 photo booth. The purpose of the project is ",
-        "to bring this technology to everyone, that want to expose their commodity in a state-of-art manner.",
+        "to bring this technology to everyone, that want to expose their commodity in a state-of-art manner. ",
         "In this work experience I've the pleasure to notevoly expand my technologic known/skills. Working with Linux as base system, ",
         "I add Xenomai for Real-Time purpose and develop real-time drivers. Remotely control is done via any type of device (Desktop, iOS, Android), ",
         "so I learned and implemented PWA web application to achieve the target."
@@ -103,6 +103,7 @@
       "highlights": [
         "HW/SW development",
         "Linux Xenomai Real-Time environment",
+        "Low latency Video Streaming",
         "PWA control GUI driven by NodeJs"
       ]
     }
@@ -173,7 +174,15 @@
     {
       "name": "Programming Language",
       "level": "Master",
-      "keywords": ["Assembler", "C/C++", "Java", "HTML/CSS/JS", "PHP", "Python", "VBA"]
+      "keywords": [
+        "Assembler",
+        "C/C++",
+        "Java",
+        "HTML/CSS/JS",
+        "PHP",
+        "Python",
+        "VBA"
+      ]
     },
     {
       "name": "Database",
@@ -193,13 +202,7 @@
     {
       "name": "Frontend",
       "level": "Master",
-      "keywords": [
-        "Web App",
-        "PWA",
-        "Webpack",
-        "Workbox",
-        "Vue"
-      ]
+      "keywords": ["Web App", "PWA", "Webpack", "Workbox", "Vue"]
     },
     {
       "name": "Backend",
